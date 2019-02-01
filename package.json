@@ -1,0 +1,22 @@
+{
+  "name": "etsy-shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./tests/test.js"
+  },
+  "keywords": [
+    "Etsy",
+    "API"
+  ],
+  "author": "Steve McArthur",
+  "license": "MIT",
+  "dependencies": {
+    "etsy-js": "0.0.6",
+    "sync-request": "^6.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
