@@ -1,5 +1,5 @@
-const assert = require('assert');
-const EtsyAPI = new (require("../index.js").EtsyAPI)("dummykey");
+var assert = require('assert');
+var EtsyAPI = new (require("../index.js").EtsyAPI)("dummykey");
 
 
 describe('EtsyAPI Methods Exist', function() {
